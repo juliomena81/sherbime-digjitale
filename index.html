@@ -4,213 +4,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Digitalizimi i Biznesit Tiranë</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <title>Digitalizimi i Biznesit | Tiranë</title>
   <style>
-    :root {
-      --blue: #1e40af;
-      --green: #16a34a;
-      --text: #0f172a;
-      --bg: #f1f5f9;
-    }
-
     body {
-      font-family: 'Inter', sans-serif;
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-    }
-
-    .container {
-      max-width: 600px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.4;
+      color: #1a1a1a;
+      max-width: 500px;
       margin: 0 auto;
-      padding: 20px;
-    }
-
-    /* Hero Section */
-    header {
-      background: white;
-      padding: 40px 20px;
-      border-radius: 0 0 30px 30px;
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-      text-align: center;
+      padding: 30px 20px;
+      background: #f8f9fa;
     }
 
     h1 {
-      font-size: 32px;
+      font-size: 28px;
       font-weight: 800;
+      color: #000;
       line-height: 1.1;
-      margin-bottom: 15px;
-      color: var(--blue);
-    }
-
-    .badge {
-      background: #dbeafe;
-      color: var(--blue);
-      padding: 5px 12px;
-      border-radius: 20px;
-      font-size: 14px;
-      font-weight: bold;
-    }
-
-    /* Problem Section */
-    .section {
-      margin: 30px 0;
-      background: white;
-      padding: 25px;
-      border-radius: 20px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    }
-
-    h2 {
-      font-size: 22px;
-      margin-top: 0;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .danger {
-      color: #dc2626;
-    }
-
-    /* Grid de Servicios */
-    .service-card {
-      border-left: 4px solid var(--blue);
-      padding-left: 15px;
       margin-bottom: 20px;
     }
 
-    .service-card h3 {
-      margin: 0;
+    .card {
+      background: #fff;
+      padding: 24px;
+      border-radius: 12px;
+      border: 1px solid #e1e4e8;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .feature {
+      margin-bottom: 20px;
+    }
+
+    .feature strong {
+      display: block;
       font-size: 18px;
+      color: #0052cc;
     }
 
-    .service-card p {
-      margin: 5px 0;
-      color: #475569;
-      font-size: 15px;
+    .feature p {
+      margin: 4px 0 0;
+      color: #444;
     }
 
-    /* Proceso Paso a Paso */
-    .step {
-      display: flex;
-      gap: 15px;
-      margin-bottom: 15px;
-      align-items: flex-start;
-    }
-
-    .step-num {
-      background: var(--blue);
-      color: white;
-      width: 28px;
-      height: 28px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-      font-weight: bold;
-    }
-
-    /* CTA */
-    .cta-box {
-      position: sticky;
-      bottom: 20px;
-      background: white;
-      padding: 15px;
-      border-radius: 50px;
-      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-
-    .btn-wa {
-      background: var(--green);
-      color: white;
+    .btn {
+      display: block;
+      background: #000;
+      color: #fff;
       text-align: center;
-      padding: 15px;
-      border-radius: 40px;
+      padding: 16px;
       text-decoration: none;
       font-weight: bold;
+      border-radius: 8px;
+      margin-top: 30px;
       font-size: 18px;
     }
 
-    .footer-tech {
+    footer {
       text-align: center;
-      font-size: 12px;
-      color: #94a3b8;
       margin-top: 40px;
-      padding-bottom: 100px;
+      font-size: 13px;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 1px;
     }
   </style>
 </head>
 
 <body>
 
-  <div class="container">
-    <header>
-      <span class="badge">SHERBIME DIGJITALE 2026</span>
-      <h1>A ekziston biznesi juaj në internet?</h1>
-      <p>Nëse nuk jeni në Google Maps, turistët nuk ju gjejnë dot. Unë ju ndihmoj të rrisni dukshmërinë dhe shitjet.</p>
-    </header>
+  <h1>Bëjeni biznesin tuaj të dukshëm</h1>
 
-    <div class="section">
-      <h2 class="danger">⚠️ Problemi sot:</h2>
-      <ul style="padding-left: 20px;">
-        <li>Turistët përdorin vetëm telefonin për të gjetur ku të hanë apo të blejnë.</li>
-        <li>Pa një menu digjitale, të huajt kanë frikë të hyjnë.</li>
-        <li>Konkurrentët tuaj po marrin klientët sepse janë online.</li>
-      </ul>
+  <div class="card">
+    <div class="feature">
+      <strong>📍 Google Maps</strong>
+      <p>Regjistrimi i saktë i biznesit tuaj që klientët dhe turistët t'ju gjejnë menjëherë.</p>
     </div>
 
-    <div class="section">
-      <h2>✅ Çfarë zgjidhim:</h2>
-
-      <div class="service-card">
-        <h3>📍 Google Maps & Local SEO</h3>
-        <p>Biznesi juaj do të shfaqet i pari kur dikush kërkon në zonën tuaj.</p>
-      </div>
-
-      <div class="service-card">
-        <h3>📸 Foto & Prezantim Profesional</h3>
-        <p>Fotografi profesionale që bindin klientin të vijë tek ju.</p>
-      </div>
-
-      <div class="service-card">
-        <h3>📲 Menu & Katalogje Online</h3>
-        <p>Klientët shohin çmimet dhe produktet tuaja direkt nga telefoni i tyre.</p>
-      </div>
+    <div class="feature">
+      <strong>🌐 Digitalizimi</strong>
+      <p>Prezencë profesionale në internet për të rritur besueshmërinë e biznesit tuaj.</p>
     </div>
 
-    <div class="section">
-      <h2>🚀 Si punojmë?</h2>
-      <div class="step">
-        <div class="step-num">1</div>
-        <div><strong>Analiza:</strong> Shohim ku mund të përmirësohet biznesi.</div>
-      </div>
-      <div class="step">
-        <div class="step-num">2</div>
-        <div><strong>Zbatimi:</strong> Regjistrimi, fotot dhe kodet QR.</div>
-      </div>
-      <div class="step">
-        <div class="step-num">3</div>
-        <div><strong>Rezultati:</strong> Klientë të rinj që vijnë direkt tek ju.</div>
-      </div>
+    <div class="feature">
+      <strong>📈 Dukshmëria</strong>
+      <p>Mos humbisni më klientë që kërkojnë shërbimet tuaja në telefonat e tyre.</p>
     </div>
 
-    <div class="footer-tech">
-      <p>Punuar me teknologjinë më të fundit nga një specialist sistemesh.<br>
-        <strong>Sistemi i optimizuar: 100% Shpejtësi.</strong>
-      </p>
-    </div>
-
-    <div class="cta-box">
-      <a href="https://wa.me/TU_NUMERO" class="btn-wa">Konsultë Falas në WhatsApp</a>
-    </div>
+    <a href="https://wa.me/TU_NUMERO" class="btn">Na kontaktoni tani</a>
   </div>
+
+  <footer>Tiranë 2026</footer>
 
 </body>
 
