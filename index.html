@@ -3,30 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Maps Tirana</title>
+    <title>Business Growth Tirana</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        body { font-family: sans-serif; max-width: 450px; margin: 0 auto; padding: 20px; background: #fff; }
-        .card { border: 3px solid #000; padding: 20px; border-radius: 10px; }
-        .service { margin-bottom: 20px; }
-        .btn { display: block; background: #25D366; color: #fff; text-align: center; padding: 18px; text-decoration: none; font-weight: bold; border-radius: 5px; }
+        body { background-color: #f3f4f6; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .card { box-shadow: 0 10px 25px rgba(0,0,0,0.1); border-radius: 20px; }
+        .gradient-text { background: linear-gradient(90deg, #059669, #10b981); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
     </style>
 </head>
-<body>
-    <div class="card">
-        <h1>Bëjeni biznesin tuaj të dukshëm</h1>
-        <div class="service">
-            <strong>📍 Google Maps</strong>
-            <p>Regjistrimi i saktë që turistët t'ju gjejnë menjëherë.</p>
+<body class="flex items-center justify-center min-h-screen p-4">
+
+    <div class="bg-white card max-w-md w-full p-8 space-y-8">
+        <div class="text-center">
+            <h1 class="text-3xl font-bold text-gray-800 tracking-tight">
+                Bëjeni biznesin tuaj <span class="gradient-text">të dukshëm</span>
+            </h1>
+            <p class="text-gray-500 mt-2 text-sm">Shndërroni vizitorët në klientë sot</p>
         </div>
-        <div class="service">
-            <strong>📸 Foto të Biznesit</strong>
-            <p>Fotografi reale që tregojnë vendndodhjen tuaj.</p>
+
+        <div class="space-y-6">
+            <div class="flex items-start space-x-4">
+                <div class="bg-green-100 p-3 rounded-lg text-green-600">
+                    <i class="fas fa-map-marker-alt text-xl"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-gray-800">Google Maps & SEO</h3>
+                    <p class="text-gray-600 text-sm italic text-balance">Shfaqeni në krye të kërkimeve kur turistët kërkojnë shërbimin tuaj.</p>
+                </div>
+            </div>
+
+            <div class="flex items-start space-x-4">
+                <div class="bg-blue-100 p-3 rounded-lg text-blue-600">
+                    <i class="fas fa-camera-retro text-xl"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-gray-800">Menaxhimi i Rrjeteve Sociale</h3>
+                    <p class="text-gray-600 text-sm italic text-balance">Përmbajtje profesionale (Reels/Foto) që bën biznesin tuaj të dallohet.</p>
+                </div>
+            </div>
+
+            <div class="flex items-start space-x-4">
+                <div class="bg-purple-100 p-3 rounded-lg text-purple-600">
+                    <i class="fas fa-chart-line text-xl"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-gray-800">Analizë e Konkurrencës</h3>
+                    <p class="text-gray-600 text-sm italic text-balance">Zbuloni pse po humbni klientë dhe si t'i ktheni ata te ju.</p>
+                </div>
+            </div>
         </div>
-        <div class="service">
-            <strong>🌐 Digitalizimi</strong>
-            <p>Prezencë në internet që rrit shitjet tuaja.</p>
+
+        <div class="bg-gray-50 border-l-4 border-green-500 p-4 rounded-r-lg">
+            <p class="text-xs font-bold text-green-700 uppercase tracking-widest">Ofertë e Limituar</p>
+            <p class="text-gray-700 text-sm font-medium italic">Auditimi i parë i biznesit tuaj është 100% FALAS.</p>
         </div>
-        <a href="https://wa.me/34696234741" class="btn">KONTAKTO NË WHATSAPP</a>
+
+        <div class="pt-4 text-center">
+            <a href="https://wa.me/34696234741" 
+               class="inline-block w-full bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold py-4 px-6 rounded-xl transition duration-300 shadow-lg transform hover:scale-105">
+                <i class="fab fa-whatsapp mr-2 text-xl"></i>
+                KONTAKTO NË WHATSAPP
+            </a>
+            <p class="text-[10px] text-gray-400 mt-4 uppercase tracking-widest">Tirana Marketing Solutions</p>
+        </div>
     </div>
+
 </body>
 </html>
